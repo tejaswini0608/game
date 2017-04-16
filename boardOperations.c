@@ -245,11 +245,10 @@ struct slot * reachDesiredElement(int row, int column, struct slot * initialSlot
  */
 void findSlots(int reqDist, int currDist,  struct slot * currSlot, struct slot * foundSlots, int * count,  bool explored[BOARD_SIZE][BOARD_SIZE]){
 
-  //int rowdiff=(board[explored][explored].row - board[row][column].row);
+  //int rowdiff=(board[explored][explored].row - board[row][column].row;
    //int coldiff=(board[explored][explored].column - board[row][column].column);
-
 	//The base case: the current slot is at the required distance from the starting slot
-	if(currDist == reqDist){
+	if(currDist==reqDist){
 		//the current slot was not explored
 		if(explored[currSlot->row][currSlot->column] == false){
 			//The next availbale position (indicated by count) at foundSlots points to the current slot

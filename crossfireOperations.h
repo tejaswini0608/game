@@ -78,6 +78,8 @@ void nearattack(int row,int column,int i,int attacked);
 //int playercanattack(int row,int column,int i,int attacker);
 void magic_attack(int row,int column,int i,int a);
 	void after_near_attack(int i,int attacked);
+	void after_dist_attack(int i,int attacked);
+
 
 /*
  * FUNCTIONS PROTOTYPES
